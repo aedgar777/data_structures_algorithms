@@ -1,0 +1,8 @@
+Big O Notation
+
+
+O(1) Constant, each added item does not increase steps
+O(logn)
+O(n) Linear, each added item adds as many steps as the last
+O(nlogn)
+O(n²)
