@@ -1,0 +1,13 @@
+
+
+Arrays occupy a contiguous block of memory, which is why you have to declare their size when you create them.
+
+Every element of an array occupies the same amount of space in an array. Arrays of objects are actually just arrays of references to objects elsewhere in memory
+
+If an array starts at memory address xm and the size of each element in the array is y, we can calculate the memory address of the ith element
+with x+i*y
+
+If we know the index of an element, the time to retrieve the element will be the same to matter where it is in the array, thanks to that formula. (O(1) time complexity)
+
+If an algo requires looping through a single array, its linear time, if you know the index, it's constant.
+
