@@ -11,3 +11,6 @@ If we know the index of an element, the time to retrieve the element will be the
 
 If an algo requires looping through a single array, its linear time, if you know the index, it's constant.
 
+If two elements have the same value and their position relative to each other changes during the sort, the algorithm is said to be unstable.
+If their relative position doesn't, the algorithm is said to be stable. This can be significant if doing multiple sorts of objects by different properties.
+
